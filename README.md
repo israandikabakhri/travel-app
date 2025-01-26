@@ -28,7 +28,7 @@ php artisan key:generate
 ```
 buat, database bernama `travel-app` di Postgres anda
 
-buka ``.env`` kemudia menyetel ``.env`` untuk konfigurasi PostgreSQl
+buka ``.env`` kemudian set ``.env`` untuk konfigurasi PostgreSQL
 ```
 DB_CONNECTION=pgsql   --> pastikan ini pgsql
 DB_HOST=127.0.0.1
@@ -57,8 +57,8 @@ http://localhost:9000
 # Penjelasan Struktur Project
 
 Struktur folder dibuat modular berdasarkan role yang ada dalam aplikasi yakni `admin` dan `penumpang`
-maka kita bisa melihat adanya pemisahan urusan per role tersebut. Kemudia dalan pembagian tersebut dibagilah 
-menjadi beberapa urusan yang melibatkan masing-masing role, sehingga diharapkan prinsip `Maintable` dan `Keterbacaan kode` dalam berjalan dengan baik.
+maka kita bisa melihat adanya pemisahan urusan per role tersebut. Kemudian dalan pembagian tersebut dibagilah 
+menjadi beberapa urusan yang melibatkan masing-masing role, sehingga diharapkan prinsip `Maintable` dan `Keterbacaan kode` dapat berjalan dengan baik.
 
 ## Controller
 ```sh
