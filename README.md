@@ -7,7 +7,11 @@ Buka terminal anda lalu masukkan perintah
 ```
 git clone https://github.com/israandikabakhri/travel-app 
 ```
-kemudia, generate masukkan dalam terminal
+masuk ke project dengan mengetik
+```
+cd travel-app
+```
+kemudian, generate masukkan dalam terminal
 ```
 composer install
 ```
