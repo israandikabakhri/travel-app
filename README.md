@@ -14,7 +14,7 @@ masuk ke project dengan mengetik
 ```
 cd travel-app
 ```
-kemudian, masukkan dalam terminal untuk menginstall `dependency`
+kemudian, masukkan perintah berikut ke terminal untuk menginstall `dependency`
 ```
 composer install
 ```
@@ -26,7 +26,7 @@ lalu membuat ``key`` didalam ``.env``
 ```
 php artisan key:generate
 ```
-buat, database bernama `travel-app`
+buat, database bernama `travel-app` di Postgres anda
 
 buka ``.env`` kemudia menyetel ``.env`` untuk konfigurasi PostgreSQl
 ```
