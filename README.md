@@ -30,12 +30,12 @@ buat, database bernama `travel-app`
 
 buka ``.env`` kemudia menyetel ``.env`` untuk konfigurasi PostgreSQl
 ```
-DB_CONNECTION=pgsql
+DB_CONNECTION=pgsql   --> pastikan ini pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
-DB_DATABASE=travel-app
-DB_USERNAME=postgres
-DB_PASSWORD=YOUR_PASSWORD
+DB_DATABASE=travel-app --> nama DB
+DB_USERNAME=postgres   --> pastikan username pgsql
+DB_PASSWORD=YOUR_PASSWORD --> pastikan password pgsql benar
 .
 .
 .
