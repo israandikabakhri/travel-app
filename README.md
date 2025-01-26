@@ -3,6 +3,9 @@ _By: Isra Andika Bakhri_
 
 ### Instalation Laravel Project
 
+Hal wajib dipastikan sebelum cloning memastikan telah menistall PHP Versi >= 8 dan PostgreSql
+
+
 Buka terminal anda lalu masukkan perintah
 ```
 git clone https://github.com/israandikabakhri/travel-app 
