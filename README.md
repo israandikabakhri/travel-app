@@ -1,9 +1,9 @@
 # Travel App
 _By: Isra Andika Bakhri_
 
-### Instalation Laravel Project
+### Instalation Travel App
 
-Hal wajib dipastikan sebelum cloning memastikan telah menistall PHP Versi >= 8 dan PostgreSql
+Hal wajib dipastikan sebelum cloning adalah memastikan telah menistall PHP Versi >= 8 dan PostgreSql
 
 
 Buka terminal anda lalu masukkan perintah
@@ -14,7 +14,7 @@ masuk ke project dengan mengetik
 ```
 cd travel-app
 ```
-kemudian, generate masukkan dalam terminal
+kemudian, masukkan dalam terminal untuk menginstall `dependency`
 ```
 composer install
 ```
