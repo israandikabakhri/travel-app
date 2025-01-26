@@ -5,7 +5,7 @@ _By: Isra Andika Bakhri_
 
 Open your terminal and input
 ```
-> git clone xxx 
+> git clone https://github.com/israandikabakhri/travel-app 
 ```
 than, generate vendor on terminal
 ```
