@@ -36,6 +36,8 @@ DB_PORT=5432
 DB_DATABASE=travel-app
 DB_USERNAME=postgres
 DB_PASSWORD=YOUR_PASSWORD
+
+FILESYSTEM_DISK=local --> ubah menjadi public
 ```
 jalankan perintah `migration` seperti dibawah ini
 ```
