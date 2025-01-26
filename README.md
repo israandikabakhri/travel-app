@@ -3,23 +3,25 @@ _By: Isra Andika Bakhri_
 
 ### Instalation Laravel Project
 
-Open your terminal and input
+Buka terminal anda lalu masukkan perintah
 ```
-> git clone https://github.com/israandikabakhri/travel-app 
+git clone https://github.com/israandikabakhri/travel-app 
 ```
-than, generate vendor on terminal
+kemudia, generate masukkan dalam terminal
 ```
-> composer install
+composer install
 ```
-generete ``.env`` (dengan cara):
+generete ``.env`` dengan cara:
 ```
-> cp .env.example .env
+cp .env.example .env
 ```
 lalu membuat ``key`` didalam ``.env``
 ```
-> php artisan key:generate
+php artisan key:generate
 ```
-open ``.env`` than setting your ``.env`` for pgsql configuration
+buat, database bernama `travel-app`
+
+buka ``.env`` kemudia menyetel ``.env`` untuk konfigurasi PostgreSQl
 ```
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
@@ -30,11 +32,11 @@ DB_PASSWORD=YOUR_PASSWORD
 ```
 jalankan perintah `migration` seperti dibawah ini
 ```
-> php artisan migrate
+php artisan migrate
 ```
 terakhir jalankan aplikasi di `port 9000` dengan mengetikkan perintah
 ```
-> php artisan serve --port=9000
+php artisan serve --port=9000
 ```
 buka browser dan masukkan link
 ```
@@ -108,6 +110,6 @@ http://localhost:9000/
 ```
 
 Dan masukkan username dan password berikut:
-Username: admin@example.com
-Password: 12345678
-Role `[admin]`
+- Username: admin@example.com
+- Password: 12345678
+- Role `[admin]`
