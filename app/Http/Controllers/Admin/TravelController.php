@@ -15,14 +15,6 @@ class TravelController extends Controller
     public function view()
     {
 
-        // Mengambil semua data dalam table Travel
-        //$datas = TravelModel::all();
-
-        // menampilkan view
-        //return view('admin.travel.view', compact('datas'));
-
-       
-
         // Memanggil hasil One to Many antara tb_travel dan tb_pemesanan
         $travels = TravelModel::with('getpemesanan')->get();
 
